@@ -25,8 +25,8 @@ public class Credential {
     @Column(name = "phone", length = 100)
     private String phone;
 
-    @Size(max = 20)
-    @Column(name = "password", length = 20)
+    @Size(max = 100)
+    @Column(name = "password", length = 100)
     private String password;
 
 }
